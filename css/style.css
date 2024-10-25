@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background-color: black;
+}
+img{
+    display: block;
+}
+a{
+    display: inline-block;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1320px;
+}
+.w-50{
+    width: 50%;
+}
+.t-white{
+    color: white;
+}
+.t-yellow{
+    color: #FBD784;
+}
+.flex{
+    display: flex;
+}
+.align-center{
+    align-items: center;
+}
+.j-between{
+    justify-content: space-between;
+}
+.title{
+    font-weight: 700;
+    letter-spacing: 6px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.sub-heading{
+    font-weight: 700;
+    line-height: 87.16px;
+    font-size: 64px;
+    text-transform: uppercase;
+}
+.details{
+    font-weight: 600;
+    line-height: 32px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.read-more{
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+/* ==================Common css========================= */
+/* ===================nav======================== */
+nav{
+    position: absolute;
+    width: 100%;
+    top: 28px;
+    z-index: 100;
+}
+nav .container .logo a{
+    display: block;
+}
+nav .container .menu ul{
+    column-gap: 60px;
+}
+nav .container .menu ul li a{
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: .6s;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+}
+nav .container .menu ul li a:hover {
+    color: black;
+}
+
+nav .container .menu ul li a.active{
+    color: black;
+}
+nav .container .menu  a{
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+}
+/* =================================== */
+/* ================banner=================== */
+#banner_part{
+    background: url(../image/banner.jpg) no-repeat center /cover;
+}
+#banner_part .container{
+    padding: 462px 0;
+    position: relative;
+}
+#banner_part .container p{
+    letter-spacing: 7px;
+}
+
+#banner_part .container h2{
+    font-weight: 700;
+    font-size: 96px;
+    text-transform: capitalize;
+    line-height: 100px;
+    max-width: 860px;
+    padding-top: 37px;
+    position: relative;
+}
+#banner_part .container h2 span{
+    font-weight: 400;
+    font-size: 88px;
+}
+/* ============================================ */
+/* ===================holiday========================= */
+#holiday_part .container{
+    column-gap: 23px;
+    padding-top: 319px;
+}
+#holiday_part .container .left img{
+    width: 100%;
+}
+#holiday_part .container .right{
+    padding: 78px 0 168px;
+}
+#holiday_part .container .right h2{
+    padding: 13px 0;
+    max-width: 513px;
+}
+#holiday_part .container .right p{
+    padding-bottom: 66px;
+}
+/* ============================================== */
+/* ====================bromo========================== */
+#bromo{
+    margin-top: 295px;
+}
+#bromo .container{
+    background: url(../image/bromo.png) no-repeat center /cover;
+    padding: 559px 0 32px;
+    text-align: center;
+}
+#bromo .container h2{
+    padding: 13px 0;
+    max-width: 932px;
+    margin: auto;
+}
+#bromo .container p{
+    padding-bottom: 27px;
+    max-width: 893px;
+    margin: auto;
+    font-size: 15px;
+    font-weight: 400;
+}
+/* ===============culture======================== */
+#culture_part{
+    padding: 295px 0 190px;
+}
+#culture_part .container{
+    flex-direction: row-reverse;
+    column-gap: 37px;
+}
+#culture_part .container img{
+    width: 100%;
+}
+#culture_part .container .right{
+    padding: 153px 0 154px;
+}
+#culture_part .container .right h2{
+    padding: 19px 0;
+    max-width: 663px;
+}
+#culture_part .container .right p{
+    font-size: 18px;
+    font-weight: 400;
+}
+#culture_part .container .right a{
+    padding-top: 47px;
+}
+/* =============================================== */
+/* ====================fotter=========================== */
+footer .container{
+    padding-top: 199px;
+}
+footer .container .row{
+    width: 100%;
+}
+footer .container .row .logo img{
+    width: 100%;
+}
+footer .container .row .btn a{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29.96px;
+    letter-spacing: -0.3px;
+    padding: 12px 0;
+}
+footer .container .row .btn button{
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 23.15px;
+    background-color: #FFA343;
+    color: #000000;
+    padding: 18px 67px;
+    margin-left: 18px;
+    border-radius: 10px;
+}
+footer .container .row-2 .contains{
+    width: 50%;
+}
+footer .container .row-2 .contains h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49.03px;
+    letter-spacing: -0.3px;
+    padding: 82px 0 48px;
+    max-width: 405px;
+}
+footer .container .row-2 .contains a{
+    padding-bottom: 35px;
+}
+footer .container .row-2 .contains .icon {
+    column-gap: 29px;
+}
+footer .container .row-2 .contains .icon i{
+    padding-bottom: 153px;
+    color: #ffffff;
+    font-size: 22px;
+}
+footer .container .row-2 .list{
+    width: 50%;
+}
+footer .container .row-2 .list ul{
+    padding-top: 58px;
+    width: 100%;
+    justify-content: space-between;
+}
+footer .container .row-2 .list ul a{
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 25.87px;
+    letter-spacing: -0.2px;
+    padding-bottom: 8px;
+}
+footer .container .row-2 .list ul a.heading{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27.24px;
+    letter-spacing: -0.23px;
+    color: #FFD1A0;
+    padding-bottom: 11px;
+}
+footer .container>p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    opacity: 50%;
+    padding-bottom: 30px;
+}
